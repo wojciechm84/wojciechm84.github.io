@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/f/mnqwajjl" method="POST">
+
+        <label for="fname">Imię</label> <br>
+        <input type="text" name="fname" id="fname" placeholder="Podaj swoje imię"> <br><br>
+
+        <label for="lname">Nazwisko</label> <br>
+        <input type="text" name="lname" id="lname" placeholder="Podaj swoje nazwisko"> <br><br>
+
+        <label for="email">Adres mailowy</label> <br>
+        <input type="email" name="email" placeholder="Podaj swój adres mailowy"> <br><br>
+
+        <label for="lista">Podaj swoje miasto</label> <br>
+        <select name="city" id="lista">
+            <option value="Krakó">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select> <br><br>
+
+        <label for="plec">Wybierz swoją płeć</label> <br>
+        <label><input type="radio" name="plec" id="plec">Kobieta</label> <br>
+        <label><input type="radio" name="plec" id="plec">Mężczyzna</label> <br><br>
+
+        <label for="agreement">RODO</label> <br>
+        <label><input type="checkbox" name="agreement" id="agreement" required>Wyrażam zgodę na przekazanie danych osobowych</label> <br><br>
+
+        <label for="message">Wpisz swoją Wiadomość</label> <br>
+        <textarea name="message" id="message"></textarea> <br><br>
+
+        <input type="submit" value="Wyślij">
+
+    </form>
+</body>
+
+</html>
