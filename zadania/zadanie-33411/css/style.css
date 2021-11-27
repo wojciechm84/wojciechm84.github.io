@@ -1,0 +1,13 @@
+p {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.tlo {
+    background-color: blue;
+}
+
+.przezro {
+    opacity: 0.5;
+}

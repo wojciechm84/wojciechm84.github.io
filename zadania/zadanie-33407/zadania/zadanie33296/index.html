@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav>
+        <!-- ul.>li*4>a -->
+        <ul>
+            <li><a href="#aboutus">O nas</a></li>
+            <li><a href="#skills">Umiejętności</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    <section id="aboutus">
+        <h1>Nagłówek 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+    <section id="skills">
+        <header>
+            <h2>Skills</h2>
+            <!-- (div.skill>h1{Naglowek $}+p{Lorem})*4 -->
+            <div class="skill">
+                <h3>Naglowek 1</h3>
+                <p>Lorem</p>
+            </div>
+            <div class="skill">
+                <h3>Naglowek 2</h3>
+                <p>Lorem</p>
+            </div>
+            <div class="skill">
+                <h3>Naglowek 3</h3>
+                <p>Lorem</p>
+            </div>
+            <div class="skill">
+                <h3>Naglowek 4</h3>
+                <p>Lorem</p>
+            </div>
+        </header>
+    </section>
+
+    <section id="portfolio">
+        <h2>Nagłówek 3</h2>
+        <div class="portfolio-item">
+            <img src="img/pic1.jfif" alt="zdjecie-1">
+        </div>
+        <div class="portfolio-item">
+            <img src="img/pic2.jfif" alt="zdjecie-2">
+        </div>
+        <div class="portfolio-item">
+            <img src="img/pic3.jfif" alt="zdjecie-3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Wojciech Małek</h2>
+        <address>
+            <p>Opublikowane przez: WM</p>
+            <p>Kontakt: <a href="mailto:wojciechm84@gmail.com">wojciechm84@gmail.com</a></p>
+        </address>
+
+        <form>
+            <label for="fname">Imię</label><br>
+            <input type="text" name="fname" id="fname" required><br>
+
+            <label for="subject">Temat</label><br>
+            <input type="text" name="subject" id="subject" required><br><br>
+
+            <label for="mess">Wiadomość</label><br>
+            <input type="text" name="mess" id="mess" required><br><br>
+
+            <input type="submit" value="Wyślij">
+        </form>
+    </section>
+</body>
+
+</html>
+
+
+<!-- Opis
+
+Stwórz prostą stronę internetową o następującej strukturze:
+
+1. Menu nawigacyjne składające się z elementów:
+- About us
+- Skills
+- Portfolio
+- Contact
+
+Każdy z nich powinien być linkiem odsyłającym do konkretnej sekcji.
+
+2. Sekcja "About us", a w niej:
+- nagłówek
+- przykładowy tekst
+
+3. Sekcja "Skills", a w niej:
+- nagłówek
+- cztery divy z klasą "skill" w każdym nagłówek oraz paragraf
+
+4. Sekcja "Portfolio":
+- nagłówek
+- trzy divy z klasą "portfolio-item" w każdym obrazek
+
+5. Sekcja "Contact":
+- nagłówek będący imieniem i nazwiskiem
+- dane adresowe umieszczone w specjalnym tagu do tego przeznaczonym
+- formularz w którym znajdą się pola: imię, temat i wiadomość. Każdy z nich musi być polem wymaganym. Na końcu przycisk "wyślij".
+
+Przed wykonaniem zadania stwórz repozytorium i rób commit z odpowiednim komentarzem po każdej utworzonej sekcji.
+
+Podeślij link do repozytorium zdalnego, abyśmy mogli sprawdzić zadanie.
+ -->

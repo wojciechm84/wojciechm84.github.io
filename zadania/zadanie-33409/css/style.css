@@ -1,0 +1,44 @@
+section {
+    background-color: #f5f5dd;
+}
+
+#jedynka {
+    background-color: red;
+    color: blue;
+}
+
+#dwojka {
+    background-color: blue;
+    color: yellow;
+}
+
+#trojka {
+    background-color: green;
+    color: violet;
+}
+
+#czworka {
+    background-color: turquoise;
+    color: red;
+}
+
+#piatka {
+    background-color: tomato;
+    color: black;
+}
+
+h1 {
+    background-color: green;
+}
+
+h1+p {
+    background-color: grey;
+}
+
+h2 {
+    background-color: turquoise;
+}
+
+h2+p {
+    background-color: white;
+}
