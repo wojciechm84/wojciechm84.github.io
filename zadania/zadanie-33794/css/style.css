@@ -1,0 +1,113 @@
+.main {
+    width: 612px;
+    height: 612px;
+    position: relative;
+    background-color: red;
+}
+
+.sq {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+}
+
+.sq-top {
+    background-color: red;
+    position: absolute;
+}
+
+.sq-top-middle {
+    background-color: blue;
+    position: absolute;
+    left: 33.3%;
+}
+
+.sq-top-right {
+    background-color: green;
+    position: absolute;
+    right: 0;
+}
+
+.sq-middle {
+    background-color: yellow;
+    position: absolute;
+    bottom: 33.3%;
+}
+
+.sq-middle-middle {
+    background-color: black;
+    position: absolute;
+    left: 33.3%;
+}
+
+.sq-middle-right {
+    background-color: rgb(207, 146, 14);
+    position: absolute;
+    right: 0;
+}
+
+.sq-bottom {
+    background-color: rgb(70, 8, 88);
+    position: absolute;
+    bottom: 0;
+}
+
+.sq-bottom-middle {
+    background-color: grey;
+    position: absolute;
+    left: 33.3%;
+}
+
+.sq-bottom-right {
+    background-color: pink;
+    position: absolute;
+    right: 0;
+}
+
+.sp {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    border: 1px solid;
+    outline-color: black;
+    background-color: yellow;
+    position: absolute;
+    left: 60px;
+    bottom: 60px;
+}
+
+.sp-top-left {
+    background-color: pink;
+}
+
+.sp-top-middle {
+    background-color: grey;
+}
+
+.sp-top-right {
+    background-color: indigo;
+}
+
+.sp-middle-left {
+    background-color: green;
+}
+
+.sp-middle-middle {
+    background-color: red;
+}
+
+.sp-middle-right {
+    background-color: blue;
+}
+
+.sp-bottom-left {
+    background-color: orange;
+}
+
+.sp-bottom-middle {
+    background-color: yellow;
+}
+
+.sp-bottom-right {
+    background-color: black;
+}
