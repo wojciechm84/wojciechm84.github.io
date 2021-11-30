@@ -1,0 +1,43 @@
+.external {
+    background-color: ##a6a9b6;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border: 10px #666360 solid;
+}
+
+.top-left {
+    background-color: #a6a9b6;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.top-right {
+    background-color: #e4e4e4;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.bottom-right {
+    background-color: #a6a9b6;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.bottom-left {
+    background-color: #ff912e;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
