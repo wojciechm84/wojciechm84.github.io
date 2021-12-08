@@ -1,19 +1,70 @@
-.square {
+.container {
+    width: 200px;
+    height: 200px;
     background-color: black;
-    width: 300px;
-    height: 300px;
     position: relative;
-    color: white;
-    cursor: pointer;
-    font-weight: 900;
-    font-size: 100px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 300px;
-    transition: linear 2s;
 }
 
-.square:hover{
-    background-color: red;
-    content: "10";
+.number {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    line-height: 200px;
+    font-size: 30px;
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    opacity: 0;
+}
+
+#nine {
+    animation-delay: 1s;
+}
+
+#eight {
+    animation-delay: 2s;
+}
+
+#seven {
+    animation-delay: 3s;
+}
+
+#six {
+    animation-delay: 4s;
+}
+
+#five {
+    animation-delay: 5s;
+}
+
+#four {
+    animation-delay: 6s;
+}
+
+#three {
+    animation-delay: 7s;
+}
+
+#two {
+    animation-delay: 8s;
+}
+
+#one {
+    animation-delay: 9s;
+}
+
+#hny {
+    animation-delay: 10s;
+}
+
+
+@keyframes odliczanie {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
 }
